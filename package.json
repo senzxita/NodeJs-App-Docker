@@ -4,7 +4,8 @@
   "description": "Share text between your devices using websockets",
   "main": "server.js",
   "scripts": {
-    "test": "node server.js"
+    "test": "node server.js",
+    "start": "node server.js"
   },
   "keywords": [
     "websockets",
@@ -17,5 +18,13 @@
     "ejs": "^3.1.6",
     "express": "^4.17.1",
     "ws": "^7.4.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rexthonyy/sharetxt.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rexthonyy/sharetxt/issues"
+  },
+  "homepage": "https://github.com/rexthonyy/sharetxt#readme"
 }

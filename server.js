@@ -9,7 +9,7 @@ const server = http.Server(app);
 app.set('view engine', 'ejs');
 app.use(express.static('public'));
 
-const LOCAL_PORT = 3000;
+const LOCAL_PORT = 4022;
 const PORT = process.env.PORT || LOCAL_PORT;
 server.listen(PORT, () => console.log(`Listening on port ${PORT}`));
 
